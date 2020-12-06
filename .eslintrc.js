@@ -8,19 +8,17 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     ecmaVersion: 8,
     sourceType: 'module',
-    project: ['./tsconfig.json']
+    project: ['./tsconfig.json'],
   },
-  plugins: [
-    '@typescript-eslint'
-  ],
+  plugins: ['@typescript-eslint'],
   extends: [
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',
     'airbnb-base', // https://github.com/airbnb/javascript
-    'airbnb-typescript',
+    '@vue/airbnb',
+    '@vue/typescript/recommended',
     'plugin:prettier/recommended', // 避免prettier规则与eslint冲突,冲突使用prettier规则, prettier需要放置在最后
     'prettier/vue', // 避免vue 与 prettier冲突
-    '@vue/prettier/@typescript-eslint',
   ],
   rules: {
     'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }], // 允许使用短路、三目

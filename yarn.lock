@@ -1519,6 +1519,23 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vue/eslint-config-airbnb@^5.1.0":
+  version "5.1.0"
+  resolved "https://bnpm.byted.org/@vue/eslint-config-airbnb/download/@vue/eslint-config-airbnb-5.1.0.tgz#6a72e166af18ac821120ff36aae8b76b940f28aa"
+  integrity sha1-anLhZq8YrIIRIP82qui3a5QPKKo=
+  dependencies:
+    eslint-config-airbnb-base "^14.0.0"
+    eslint-import-resolver-node "^0.3.4"
+    eslint-import-resolver-webpack "^0.12.2"
+    eslint-plugin-import "^2.21.2"
+
+"@vue/eslint-config-typescript@^7.0.0":
+  version "7.0.0"
+  resolved "https://bnpm.byted.org/@vue/eslint-config-typescript/download/@vue/eslint-config-typescript-7.0.0.tgz#220c70c2edf7a253e739298525f4d401b8ef0038"
+  integrity sha1-Igxwwu33olPnOSmFJfTUAbjvADg=
+  dependencies:
+    vue-eslint-parser "^7.0.0"
+
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/@vue/preload-webpack-plugin/download/@vue/preload-webpack-plugin-1.1.2.tgz#ceb924b4ecb3b9c43871c7a429a02f8423e621ab"
@@ -3790,7 +3807,7 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-airbnb-base@^14.2.1:
+eslint-config-airbnb-base@^14.0.0, eslint-config-airbnb-base@^14.2.1:
   version "14.2.1"
   resolved "https://registry.npm.taobao.org/eslint-config-airbnb-base/download/eslint-config-airbnb-base-14.2.1.tgz#8a2eb38455dc5a312550193b319cdaeef042cd1e"
   integrity sha1-ii6zhFXcWjElUBk7MZza7vBCzR4=
@@ -3811,6 +3828,22 @@ eslint-import-resolver-node@^0.3.4:
   dependencies:
     debug "^2.6.9"
     resolve "^1.13.1"
+
+eslint-import-resolver-webpack@^0.12.2:
+  version "0.12.2"
+  resolved "https://bnpm.byted.org/eslint-import-resolver-webpack/download/eslint-import-resolver-webpack-0.12.2.tgz#769e86cd0c752a1536c19855ebd90aa14ce384ee"
+  integrity sha1-dp6GzQx1KhU2wZhV69kKoUzjhO4=
+  dependencies:
+    array-find "^1.0.0"
+    debug "^2.6.9"
+    enhanced-resolve "^0.9.1"
+    find-root "^1.1.0"
+    has "^1.0.3"
+    interpret "^1.2.0"
+    lodash "^4.17.15"
+    node-libs-browser "^1.0.0 || ^2.0.0"
+    resolve "^1.13.1"
+    semver "^5.7.1"
 
 eslint-import-resolver-webpack@^0.13.0:
   version "0.13.0"
@@ -3836,7 +3869,7 @@ eslint-module-utils@^2.6.0:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@^2.22.1:
+eslint-plugin-import@^2.21.2, eslint-plugin-import@^2.22.1:
   version "2.22.1"
   resolved "https://registry.npm.taobao.org/eslint-plugin-import/download/eslint-plugin-import-2.22.1.tgz?cache=0&sync_timestamp=1601248588115&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-plugin-import%2Fdownload%2Feslint-plugin-import-2.22.1.tgz#0896c7e6a0cf44109a2d97b95903c2bb689d7702"
   integrity sha1-CJbH5qDPRBCaLZe5WQPCu2iddwI=
@@ -9125,7 +9158,7 @@ vue-class-component@^7.2.3:
   resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
   integrity sha1-hHHgN7jkdi9aRkaG4Z5a/HCFAuQ=
 
-vue-eslint-parser@^7.2.0:
+vue-eslint-parser@^7.0.0, vue-eslint-parser@^7.2.0:
   version "7.2.0"
   resolved "https://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-7.2.0.tgz?cache=0&sync_timestamp=1606963503644&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-eslint-parser%2Fdownload%2Fvue-eslint-parser-7.2.0.tgz#1e17ae94ca71e617025e05143c8ac5593aacb6ef"
   integrity sha1-HheulMpx5hcCXgUUPIrFWTqstu8=
