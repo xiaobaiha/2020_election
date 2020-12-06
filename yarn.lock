@@ -1521,7 +1521,7 @@
 
 "@vue/eslint-config-airbnb@^5.1.0":
   version "5.1.0"
-  resolved "https://bnpm.byted.org/@vue/eslint-config-airbnb/download/@vue/eslint-config-airbnb-5.1.0.tgz#6a72e166af18ac821120ff36aae8b76b940f28aa"
+  resolved "https://registry.npm.taobao.org/@vue/eslint-config-airbnb/download/@vue/eslint-config-airbnb-5.1.0.tgz#6a72e166af18ac821120ff36aae8b76b940f28aa"
   integrity sha1-anLhZq8YrIIRIP82qui3a5QPKKo=
   dependencies:
     eslint-config-airbnb-base "^14.0.0"
@@ -1531,7 +1531,7 @@
 
 "@vue/eslint-config-typescript@^7.0.0":
   version "7.0.0"
-  resolved "https://bnpm.byted.org/@vue/eslint-config-typescript/download/@vue/eslint-config-typescript-7.0.0.tgz#220c70c2edf7a253e739298525f4d401b8ef0038"
+  resolved "https://registry.npm.taobao.org/@vue/eslint-config-typescript/download/@vue/eslint-config-typescript-7.0.0.tgz?cache=0&sync_timestamp=1602159795043&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Feslint-config-typescript%2Fdownload%2F%40vue%2Feslint-config-typescript-7.0.0.tgz#220c70c2edf7a253e739298525f4d401b8ef0038"
   integrity sha1-Igxwwu33olPnOSmFJfTUAbjvADg=
   dependencies:
     vue-eslint-parser "^7.0.0"
@@ -3831,7 +3831,7 @@ eslint-import-resolver-node@^0.3.4:
 
 eslint-import-resolver-webpack@^0.12.2:
   version "0.12.2"
-  resolved "https://bnpm.byted.org/eslint-import-resolver-webpack/download/eslint-import-resolver-webpack-0.12.2.tgz#769e86cd0c752a1536c19855ebd90aa14ce384ee"
+  resolved "https://registry.npm.taobao.org/eslint-import-resolver-webpack/download/eslint-import-resolver-webpack-0.12.2.tgz#769e86cd0c752a1536c19855ebd90aa14ce384ee"
   integrity sha1-dp6GzQx1KhU2wZhV69kKoUzjhO4=
   dependencies:
     array-find "^1.0.0"

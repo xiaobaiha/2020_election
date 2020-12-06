@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
 </template>
 
@@ -15,7 +15,8 @@ export default Vue.extend({
     HelloWorld,
   },
   mounted() {
-    const a: any = 1;
-  }
+    const a = 1;
+    console.log(a);
+  },
 });
 </script>
