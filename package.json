@@ -10,6 +10,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"git commit trigger husky pre-commit hook\" "
+    }
+  },
   "dependencies": {
     "@typescript-eslint/parser": "^4.9.0",
     "core-js": "^3.6.5",
@@ -39,6 +44,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.2.0",
     "eslint-plugin-vue": "^7.0.0-beta.4",
+    "husky": "^4.3.5",
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
