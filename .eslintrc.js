@@ -5,13 +5,18 @@ module.exports = {
     browser: true,
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 8,
     sourceType: 'module',
+    project: ['./tsconfig.json'],
   },
+  plugins: ['@typescript-eslint'],
   extends: [
     'plugin:vue/vue3-recommended',
+    'plugin:@typescript-eslint/recommended',
     'airbnb-base', // https://github.com/airbnb/javascript
+    '@vue/airbnb',
+    '@vue/typescript/recommended',
     'plugin:prettier/recommended', // 避免prettier规则与eslint冲突,冲突使用prettier规则, prettier需要放置在最后
     'prettier/vue', // 避免vue 与 prettier冲突
   ],
@@ -23,6 +28,8 @@ module.exports = {
     'no-shadow': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-unused-expressions': ['error'],
   },
   settings: {
     'import/resolver': {
