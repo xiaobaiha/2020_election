@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "c": "git-cz",
+    "ts": "tsc -p . --noEmit --resolveJsonModule --locale zh-cn",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
