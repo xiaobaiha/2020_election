@@ -8,7 +8,7 @@ module.exports = {
     const json = JSON.stringify(
       {
         extends: './tsconfig.json',
-        include: [...filenames, './src/externals.d.ts'],
+        include: [...filenames],
       },
       null,
       2,
@@ -18,6 +18,7 @@ module.exports = {
       `tsc -p ${TMP} --noEmit --resolveJsonModule --locale zh-cn`,
       'eslint --cache --quiet',
       'prettier --write',
+      'stylelint src/**/*.{html,vue,css,sass,scss} --fix',
     ];
   },
 };

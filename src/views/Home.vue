@@ -20,3 +20,10 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.home {
+  padding: 0;
+  margin: 0;
+}
+</style>
