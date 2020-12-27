@@ -7,20 +7,14 @@
   "license": "MIT",
   "scripts": {
     "c": "git-cz",
+    "ts": "tsc -p . --noEmit --resolveJsonModule --locale zh-cn",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged "
+      "pre-commit": "lint-staged"
     }
-  },
-  "lint-staged": {
-    "src/**/*.{ts,vue}": [
-      "prettier --write",
-      "eslint --cache --fix",
-      "tsc -p tsconfig.json --noEmit"
-    ]
   },
   "dependencies": {
     "@typescript-eslint/parser": "^4.9.0",
